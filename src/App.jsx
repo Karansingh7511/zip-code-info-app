@@ -27,10 +27,16 @@ function App() {
     }
   };
 
+  const clearLocationInfo = () => {
+    // Clear location and error information
+    setLocation(null);
+    setError(null);
+  };
+
   return (
-    <div className="container mx-auto p-8 bg-gray-100">
+    <div className="container mx-auto p-8 bg-gray-300">
       <UserInput onSearch={fetchLocationInfo} loading={loading} />
-      <LocationInfo location={location} error={error} />
+      <LocationInfo location={location} error={error} onClear={clearLocationInfo} />
     </div>
   );
 }
