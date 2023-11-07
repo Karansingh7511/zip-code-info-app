@@ -1,14 +1,14 @@
-# React & Tailwind CSS Starter Pack
+# React & Zip code info App
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+This is a zip code info app for getting details of country using zip or pincode with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
 
 ## Usage
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+This pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
 
 1. Clone the repository to your local machine.
     ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
+    git clone https://github.com/Karansingh7511/zip-code-info-app.git
     ```
 
 1. Install the required packages.
