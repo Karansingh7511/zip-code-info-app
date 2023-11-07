@@ -13,7 +13,7 @@ This pack includes a basic setup for using **Tailwind CSS with React**. To start
 
 1. Install the required packages.
     ```sh
-    cd react-tailwind-css-starter-pack
+    cd react-zip-code-info
     npm install
     ```
 
